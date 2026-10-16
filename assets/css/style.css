@@ -1,0 +1,110 @@
+/* Fixos */
+    /* Geral */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: #0d0d0d;
+        color: #39ff14;
+        font-family: 'Courier New', monospace;
+    }
+
+    /* Cabeçalho */
+    header {
+        height: 45px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #333;
+    }
+    
+    header span::after {
+        content: "█";
+        margin-left: 6px;
+        animation: piscar 1s steps(1) infinite;
+    }
+
+    
+    @keyframes piscar {
+        50% {
+            opacity: 0;
+        }
+}
+
+    /* Menu lateral */
+    nav {
+        position: fixed;
+        top: 45px;
+        bottom: 0;
+        left: 0;
+        width: 180px;
+        padding: 20px;
+        border-right: 1px solid #333;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav a {
+        color: #39ff14;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        color: #ffffff;
+    }
+
+    nav a.ativo {
+    color: #ffffff;
+    font-weight: bold;
+    }
+
+    nav a.ativo::before {
+        content: "> ";
+    }
+
+    /* Rodapé */
+    #conteudo {
+        margin-left: 180px;
+        padding: 20px;
+    }
+
+    footer {
+        margin-left: 180px;
+        padding: 12px 20px;
+        border-top: 1px solid #333;
+    }
+
+/* Específicos */
+    /*inicio*/
+        /* Foto */
+        #conteudo img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid #39ff14;
+            object-fit: cover;
+        }
+
+        /* Nome */
+        #conteudo h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin: 16px 0 8px;
+        }
+
+        /* Frase */
+        .frase {
+            color: #ef9f27;
+            margin-bottom: 16px;
+        }
+
+        /* Apresentação */
+        .apresentacao {
+            color: #999;
+            line-height: 1.6;
+            max-width: 600px;
+        }

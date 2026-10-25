@@ -2,7 +2,7 @@
 
 const header = document.getElementById("cabecalho");
 
-header.innerHTML = `<span>pedro@portifolio:~$</span>`;
+header.innerHTML = `<span>pedro@portfolio:~$</span>`;
 
 //Header
 
@@ -10,14 +10,12 @@ header.innerHTML = `<span>pedro@portifolio:~$</span>`;
 //Menu Lateral
 
 const intensMenu = [
-    {texto: "inicio", hash: "#inicio"},
-    {texto: "jornada", hash: "#jornada"},
-    {texto: "projetos", hash: "#projetos"},
-    {texto: "aprendizados", hash: "#aprendizados"},
-    {texto: "desafios", hash: "#desafios"},
-    {texto: "interesses", hash: "#interesses"},
-    {texto: "atualizações", hash: "#atualizacoes"},
-    {texto: "contato", hash: "#contato"}
+    {texto: "Início", hash: "#inicio"},
+    {texto: "Jornada Profissional", hash: "#jornadaProfissional"},
+    {texto: "Projetos", hash: "#projetos"},
+    {texto: "Jornada Acadêmica", hash: "#jornadaAcademica"},
+    {texto: "Atualizações", hash: "#atualizacoes"},
+    {texto: "Contato", hash: "#contato"}
 ];
 
 const menuLateral = document.getElementById("menu-lateral");

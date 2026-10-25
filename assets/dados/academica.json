@@ -1,0 +1,11 @@
+{
+    "texto": "Atualmente, curso Sistemas de Informação na PUC Minas, onde estou construindo minha base de conhecimentos em tecnologia, com foco em programação, desenvolvimento de software, bancos de dados e fundamentos da computação.\n\nAlém das atividades acadêmicas, atuo como extensionista na universidade, experiência que me permite relacionar conhecimentos teóricos a situações práticas e desenvolver habilidades como comunicação, organização e trabalho em equipe.\\Tenho interesse especial em computação em nuvem, computação de alto desempenho e inteligência artificial. Também pretendo explorar oportunidades de iniciação científica, especialmente em áreas relacionadas a simulações computacionais de materiais e astronomia.\n\nMeu objetivo é continuar aprimorando minhas competências técnicas, participar de projetos acadêmicos e profissionais e, futuramente, seguir na pesquisa científica por meio de um mestrado e doutorado.\n\nVejo a graduação como o início de uma trajetória de aprendizado contínuo, na qual pretendo transformar minha curiosidade por tecnologia em conhecimento, experiência prática e contribuições relevantes para a área.",
+    "formacoes": [
+        {
+            "titulo": "Sistemas de Informação",
+            "instituicao": "PUC Minas",
+            "periodo": "2024 - atual",
+            "descricao": "Curso de graduação, com foco em desenvolvimento e análise de sistemas."
+        }
+    ]
+}

@@ -18,7 +18,7 @@
         padding: 0 20px;
         display: flex;
         align-items: center;
-        border-bottom: 1px solid #333;
+        border-bottom: 5px solid #333;
     }
     
     header span::after {
@@ -42,7 +42,7 @@
         left: 0;
         width: 180px;
         padding: 20px;
-        border-right: 1px solid #333;
+        border-right: 5px solid #333;
         display: flex;
         flex-direction: column;
         gap: 12px;
@@ -75,7 +75,7 @@
     footer {
         margin-left: 180px;
         padding: 12px 20px;
-        border-top: 1px solid #333;
+        border-top: 5px solid #333;
     }
 
 /* Específicos */
@@ -96,6 +96,7 @@
             margin: 16px 0 8px;
         }
 
+    /* Cards de Projetos */   
         /* Frase */
         .frase {
             color: #ef9f27;
@@ -108,3 +109,123 @@
             line-height: 1.6;
             max-width: 600px;
         }
+
+        /*Cards*/
+        .lista-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        /* Card: caixa com borda azul, a cor que escolhemos pra Projetos */
+        .card {
+            border: 1px solid #378add;
+            border-radius: 6px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .card h2 {
+            color: #85b7eb;
+            font-size: 1.1rem;
+        }
+
+        /* Tipo (acadêmico/pessoal) em laranja e pequeno, como uma etiqueta */
+        .card .tipo {
+            color: #ef9f27;
+            font-size: 0.8rem;
+        }
+
+        .card .tecnologias {
+            color: #999;
+            font-size: 0.85rem;
+        }
+
+        .card a {
+            color: #39ff14;
+            text-decoration: none;
+        }
+
+        .card a:hover {
+            color: #ffffff;
+        }
+    /* Jornada Profissional/profissional */
+        /* Linha do tempo da Jornada Profissional */
+            /* Container: a linha vertical fica na borda esquerda */
+                .linha-tempo {
+                    margin-top: 16px;
+                    border-left: 2px solid #378add;
+                    padding-left: 24px;
+                }
+
+                /* Cada experiência: espaço embaixo e posição relativa pro marcador */
+                .item-tempo {
+                    position: relative;
+                    margin-bottom: 28px;
+                }
+
+                /* Marcador: bolinha sobre a linha, ao lado de cada item */
+                .item-tempo::before {
+                    content: "";
+                    position: absolute;
+                    left: -31px;
+                    top: 4px;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    background: #0d0d0d;
+                    border: 2px solid #39ff14;
+                }
+
+                /* Período em laranja e pequeno, como etiqueta */
+                .item-tempo .periodo {
+                    color: #ef9f27;
+                    font-size: 0.8rem;
+                }
+
+                .item-tempo h2 {
+                    color: #85b7eb;
+                    font-size: 1.1rem;
+                }
+
+                .item-tempo .empresa {
+                    color: #39ff14;
+                    margin-bottom: 6px;
+                }
+                /* Respeita as quebras de linha (\n) do texto, sem preservar espaços extras */
+                .texto {
+                    white-space: pre-line;
+                    color: #999;
+                    line-height: 1.6;
+                    max-width: 600px;
+                }
+    /* Contato */
+       /* Lista sem os marcadores padrão e com espaço entre os itens */
+        .lista-contato {
+            list-style: none;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        /* Rótulo (LinkedIn, GitHub, E-mail) em laranja, com largura fixa pra alinhar os links */
+        .lista-contato .rotulo {
+            display: inline-block;
+            width: 90px;
+            color: #ef9f27;
+        }
+
+        /* Links em verde terminal, brancos ao passar o mouse */
+        .lista-contato a {
+            color: #39ff14;
+            text-decoration: none;
+        }
+
+        .lista-contato a:hover {
+            color: #ffffff;
+        }
+        

@@ -1,0 +1,42 @@
+{
+    
+    "texto": "Minha trajetória profissional começou aos 16 anos e foi construída, principalmente, na área comercial. Durante esse período, desenvolvi habilidades de comunicação, negociação, relacionamento com clientes e resolução de problemas, que contribuíram para meu crescimento pessoal e profissional.\n\n Uma das experiências mais marcantes foi minha atuação como Gerente Comercial Expresso no Bradesco, onde trabalhei com clientes pessoa jurídica e desenvolvi competências importantes para lidar com diferentes situações e desafios do mercado de trabalho.\n\n Apesar da experiência construída na área comercial, meu interesse por tecnologia surgiu ainda na infância, quando ganhei meu primeiro computador e comecei a questionar como ele funcionava. Anos depois, essa curiosidade se transformou na decisão de iniciar uma nova trajetória por meio da graduação em Sistemas de Informação na PUC Minas.\n\n Atualmente, meu principal desafio é sair da zona de conforto e construir uma carreira em uma nova área, aproveitando minha experiência profissional enquanto desenvolvo conhecimentos técnicos. Tenho interesse em computação em nuvem, computação de alto desempenho e inteligência artificial.\n\n Meu objetivo é consolidar uma carreira estável em uma grande empresa, continuar aprendendo e transformar minha curiosidade por tecnologia em experiência prática e crescimento profissional.",
+    "experiencias": [
+        {
+            "cargo": "Extensionista",
+            "empresa": "PUC - Minas",
+            "periodo": "2026 - Atual",
+            "descricao": "Atuo na coordenção de projetos de extensão, auxiliando na organização e execução de atividades relacionadas a projetos acadêmicos e comunitários."
+        },
+        {
+            "cargo": "Gerente Comercial",
+            "empresa": "Banco Bradesco S.A.",
+            "periodo": "2019 - 2025",
+            "descricao": "Gerenciava uma carteira de clientes (PJ) que prestam serviços à instituição como correspondentes bancários."
+        },
+        {
+            "cargo": "Estagiário",
+            "empresa": "Ministerio Público do Estado de Minas Gerais",
+            "periodo": "2019 - 2019",
+            "descricao": "Realizava análises em demonstrações contábeis de Entidades do Terceiro Setor, com foco em identificar inconsistências e propor melhorias nos processos contábeis."
+        },
+        {
+            "cargo": "Vendedor",
+            "empresa": "TNG Comércio de Roupas Ltda.",
+            "periodo": "2017 - 2019",
+            "descricao": "Realizava atendimento aos cliente e cuidava da organizacão da loja e estoque."
+        },
+        {
+            "cargo": "Estagiário",
+            "empresa": "Volant - Corretora de Seguros",
+            "periodo": "2016 - 2017",
+            "descricao": "Realizava cotaçoes de seguros e atendimento aos clientes."
+        },
+        {
+            "cargo": "Vendedor",
+            "empresa": "Livraria Leitura",
+            "periodo": "2014 - 2016",
+            "descricao": "Realizava atendimento aos cliente e cuidava da organizacão da loja e estoque."
+        }
+    ]
+}

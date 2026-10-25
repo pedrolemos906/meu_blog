@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Projeto de Extensão Universitária - Nave",
+        "descricao": "O trabalho consistiu no levantamento e na organização das informações dos equipamentos de informática da instituição, resultando em um inventário técnico padronizado. O objetivo foi facilitar o controle dos recursos tecnológicos, apoiar o planejamento de manutenções e atualizações e fornecer informações que contribuíssem para a gestão e o desenvolvimento institucional.",
+        "tecnologias": ["PowerShell", "WMI/CIM", "Windows Forms"],
+        "tipo": "Acadêmico",
+        "link": "https://docs.google.com/document/d/1L6uubz-eW70kYVCNzOuWkXe7SUkxbCiMNPLvj3H9Rrw/edit?usp=drive_link",
+        "imagem": "assets/img/projeto1.jpg"
+    },
+    {
+        "titulo": "Plataforma OnLife",
+        "descricao": "O projeto OnLife foi desenvolvido para se tornar uma plataforma web para promover o uso consciente das redes sociais, buscando transformar hábitos passivos em práticas mais equilibradas.",
+        "tecnologias": ["HTML", "CSS", "JavaScript"],
+        "tipo": "Acadêmico",
+        "link": "https://github.com/pedrolemos906/Faculdade/tree/7f5efb44a7c0cde6f2c65853d96417e09614affc/Primeiro%20Semestre/TRABALHO%20INTERDISCIPLINAR%20%20APLICA%C3%87%C3%95ES%20WEB%20FRONT-END/Trabalhos/2026-1-p1-tiaw-g3-redes-sociais-2",
+        "imagem": "assets/img/projeto2.jpg"
+    },
+    {
+        "titulo": "Plataforma TalkHub",
+        "descricao": "O projeto TalkHub foi desenvolvido para se tornar um ambiente de comunicação online, permitindo que os usuários interajam afim de praticar diversos idiomas.",
+        "tecnologias": ["HTML", "CSS", "JavaScript"],
+        "tipo": "Acadêmico",
+        "link": "https://github.com/pedrolemos906/Faculdade/tree/7f5efb44a7c0cde6f2c65853d96417e09614affc/Primeiro%20Semestre/DESENVOLVIMENTO%20WEB%20FRONT-END/Trabalhos/talkHub1.0v",
+        "imagem": "assets/img/projeto2.jpg"
+    }
+]

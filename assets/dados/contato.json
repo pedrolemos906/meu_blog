@@ -1,0 +1,20 @@
+{
+    "texto": "Aqui você encontrará informações de contato, como LinkedIn, GitHub e E-mail.",
+    "links": [
+        {
+            "nome": "LinkedIn",
+            "texto": "Acessar Perfil",
+            "url": "https://www.linkedin.com/in/pedro-lemos-5b6275375/"
+        },
+        {
+            "nome": "GitHub",
+            "texto": "Acessar Perfil",
+            "url": "https://github.com/pedrolemos906"
+        },
+        {
+            "nome": "E-mail",
+            "texto": "Enviar e-mail",
+            "url": "mailto:pedrolemos906@gmail.com"
+        }
+    ]
+}
